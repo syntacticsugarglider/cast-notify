@@ -1,0 +1,14 @@
+[package]
+name = "cast-notify"
+version = "0.1.0"
+authors = ["Izzy Swart <zenerboson@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+blocking = "1.0.2"
+futures = "0.3.8"
+google_translate_tts = "0.1.2"
+mdns = "1.1.0"
+pin-project = "1.0.2"
+rust_cast = { git = "https://github.com/syntacticsugarglider/rust-cast", features = ["thread_safe"], branch = "thread-safety" }
+thiserror = "1.0.22"
